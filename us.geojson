@@ -91,5 +91,28 @@
          },
          "id":4
       }
+   ],
+   "features":[
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"LineString",
+            "coordinates":[
+               [
+                  -119.6894788742065,
+                  34.40885702466291
+               ],
+               [
+                  -119.6648454666137,
+                  34.41569015785019
+               ]
+            ]
+         },
+         "properties":{
+            "beach":"Santa Barbara Beach",
+            "Region":"California"
+         },
+         "id":5
+      }
    ]
 }
