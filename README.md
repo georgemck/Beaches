@@ -1,7 +1,6 @@
-somebeaches
+Beaches
 ===========
 
-Some beaches
 
 
 Testing GeoJSON, http://geojsonlint.com
