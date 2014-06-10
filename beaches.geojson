@@ -84,6 +84,12 @@
                ]
             ]
          },
+         "properties":{
+            "Title":"Dockweiler State Beach",
+            "Region":"California"
+         }
+      },
+      {
          "type":"Feature",
          "geometry":{
             "type":"LineString",
@@ -137,7 +143,9 @@
          "properties":{
             "Title":"Manhattan Beach",
             "Region":"California"
-         },
+         }
+      },
+      {
          "type":"Feature",
          "geometry":{
             "type":"LineString",
@@ -199,7 +207,9 @@
          "properties":{
             "Title":"Santa Monica Beach",
             "Region":"California"
-         },
+         }
+      },
+      {
          "type":"Feature",
          "geometry":{
             "type":"LineString",
@@ -237,7 +247,9 @@
          "properties":{
             "Title":"Venice Beach",
             "Region":"California"
-         },
+         }
+      },
+      {
          "type":"Feature",
          "geometry":{
             "type":"LineString",
@@ -411,7 +423,9 @@
          "properties":{
             "Title":"Huntington Beach",
             "Region":"California"
-         },
+         }
+      },
+      {
          "type":"Feature",
          "geometry":{
             "type":"LineString",
