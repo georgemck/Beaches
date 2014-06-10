@@ -21,9 +21,7 @@
             "Region":"Illinois"
          },
          "id":1
-      }
-   ],
-   "features":[
+      },
       {
          "type":"Feature",
          "geometry":{
@@ -44,9 +42,7 @@
             "Region":"Florida"
          },
          "id":2
-      }
-   ],
-   "features":[
+      },
       {
          "type":"Feature",
          "geometry":{
@@ -67,9 +63,7 @@
             "Region":"Florida"
          },
          "id":3
-      }
-   ],
-   "features":[
+      },
       {
          "type":"Feature",
          "geometry":{
@@ -90,9 +84,7 @@
             "Region":"Florida"
          },
          "id":4
-      }
-   ],
-   "features":[
+      },
       {
          "type":"Feature",
          "geometry":{
