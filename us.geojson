@@ -90,7 +90,7 @@
          },
          "id":0
       },    
-      {
+{
          "type":"GeometryCollection",
          "geometries":[{
             "type":"LineString",
@@ -103,7 +103,8 @@
             "Region":"California"
          },
          "id":6
-      },      {
+      },    
+      {
          "type":"Feature",
          "geometry":{
             "type":"LineString",
