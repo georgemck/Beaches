@@ -106,5 +106,9 @@
          },
          "id":5
       }
-   ]
+   ],
+         "properties":{
+            "Title":"USA Beaches",
+            "State":"Several"
+         }
 }
