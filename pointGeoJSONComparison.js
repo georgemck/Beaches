@@ -35,6 +35,7 @@ function pointGeoJSONComparison(geoJSON,longitude,latitude,distance){
 				//Iterate through single geometry
 				itemz = currentGeoJSON.geometry.coordinates.length;
 			
+				//Is this geometry type a single point?
 				var geometryType = currentGeoJSON.geometry.type;
 			
 				for (var k = 0; k < itemz; k++) { 				
