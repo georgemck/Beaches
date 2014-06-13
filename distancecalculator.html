@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Checks whether a location is within a specified distance of some place</title>
+      <style>
+         #format {
+	         position:absolute;
+	         left:100px;
+	         top:60px;
+         }
+      </style>
+   </head>
+   <body>
+      <div id="format">
+         Checks whether a location is within a specified distance of some place
+         <br>
+         <br>
+         <input id="dist" placeholder="how many meters"  value="250"/>&nbsp;meters<br>
+         <input id="p1lat" placeholder="latitude"  value="36.963757"/>&nbsp;latitude<br>
+         <input id="p1lon" placeholder="longitude" value="-122.017563"/>&nbsp;longitude<br>
+         <br>
+         <input id="submit" onclick="calculate();" value="Check" type="submit"/>
+         <br>
+         <br>
+         <br>
+         <textarea id="distance"  cols="50"  rows="5"></textarea>
+      </div>
+      <script src="geojson-utils.js"></script>
+      <script src="beaches.js"></script>
+      <script src="pointGeoJSONComparison.js"></script>
+      <script>
+         
+         function calculate(){
+         	//console.log("function calculate");
+         	var p1La = document.getElementById("p1lat").value;
+         	var p1Lo = document.getElementById("p1lon").value;
+         	
+         	var checkDistance = document.getElementById("dist").value;
+         	var theDistance = pointGeoJSONComparison(geoJSONValue,p1Lo,p1La,checkDistance);
+         	
+         	if(theDistance != null){
+         		message = theDistance;
+         	} else {
+         		message = "There were no matches.";
+         	}
+         	document.getElementById("distance").value = message;
+         	console.log(message);
+         }
+      </script>
+   </body>
+</html>
